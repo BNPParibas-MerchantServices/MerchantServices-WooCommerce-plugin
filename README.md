@@ -8,7 +8,7 @@
 ![Platform](https://img.shields.io/badge/WooCommerce-plugin-96588A?style=flat-square&logo=woocommerce&logoColor=white)
 ![Release](https://img.shields.io/badge/release-not%20yet%20available-lightgrey?style=flat-square)
 
-[English](#-coming-soon) · [Français](#-bientôt-disponible) · [Documentation](https://docs.merchant-services.bnparibas)
+[English](#-coming-soon) · [Français](#-bientôt-disponible) · [Documentation](https://docs.merchant-services.bnpparibas)
 
 </div>
 
@@ -28,14 +28,21 @@ The All-in-One plugin brings three BNP Paribas Merchant Services solutions into 
 
 ### Planned features
 
-- [ ] One install, one settings screen, each solution switched on independently
-- [ ] Hosted payment page with 3-D Secure
-- [ ] Deferred capture
-- [ ] Subscriptions with stored card credentials (card-on-file)
-- [ ] Installment simulation on product and cart pages
-- [ ] Refunds and cancellations from native WooCommerce refunds
-- [ ] Order statuses updated only on server-verified payment notifications
-- [ ] Logs and built-in support form
+**💳 Axepta BNP Paribas** — CB, Visa, Mastercard, Amex, Apple Pay, Google Pay, PayPal
+
+- Hosted payment page, by redirection or in an iframe, with 3-D Secure
+- 3DS exemption requests
+- Automatic, manual or deferred capture
+- Subscriptions with stored card credentials
+- Built-in logs and support form
+
+**🗓️ FLOA Pay** — Pay Later, 3x, 4x, 10x (France)
+
+- Installment simulation on product and cart pages
+- Payment page hosted by FLOA, with 3-D Secure
+- First installment captured automatically or when the order is validated
+- Refunds and cancellations from WooCommerce refunds
+- Built-in logs and support form
 
 ### Installation
 
@@ -45,30 +52,57 @@ Available with the first release — via Plugins → Add New → Upload Plugin.
 
 ### Developer resources
 
-👉 **[docs.merchant-services.bnparibas](https://docs.merchant-services.bnparibas)** — installation guides, configuration and API documentation.
+👉 **[docs.merchant-services.bnpparibas](https://docs.merchant-services.bnpparibas)** — installation guides, configuration and API documentation.
 
 ---
 
 ## 🇫🇷 Bientôt disponible
 
-> **Ce dépôt est un emplacement réservé.** Le plugin est en cours de développement ; aucune version n'est encore publiée.
+> [!NOTE]
+> **Ce dépôt est un emplacement réservé.** Le plugin est en cours de développement et aucune version n'est encore publiée.
+> ⭐ Ajoutez une étoile ou 👀 suivez ce dépôt pour être prévenu de la première version.
 
-Le **plugin All-in-One BNP Paribas Merchant Services pour WooCommerce / WordPress** réunit dans une seule extension trois solutions BNP Paribas :
+Le plugin All-in-One réunit trois solutions BNP Paribas Merchant Services dans votre back-office WooCommerce / WordPress. Installez-le une fois, puis activez les solutions dont vous avez besoin.
 
-- 💳 **Axepta BNP Paribas** : paiement par carte et portefeuilles (CB, Visa, Mastercard, Amex, Apple Pay, Google Pay, PayPal) ;
-- 🗓️ **FLOA Pay** : paiement fractionné et différé (Pay Later, 3x, 4x, 10x en France) ;
-- 🏦 **BNP Paribas Personal Finance** : financement des achats de vos clients.
+| Solution | Ce qu'elle apporte | Statut |
+|---|---|---|
+| 💳 **Axepta BNP Paribas** | Paiement par carte et portefeuilles : CB, Visa, Mastercard, Amex, Apple Pay, Google Pay, PayPal | 🟡 En développement |
+| 🗓️ **FLOA Pay** | Paiement fractionné et différé : Pay Later, 3x, 4x, 10x (France) | 🟡 En développement |
+| 🏦 **BNP Paribas Personal Finance** | Financement des achats importants de vos clients | 🟡 En développement |
 
-Fonctionnalités prévues : installation et écran de configuration uniques, page de paiement hébergée avec 3-D Secure, capture différée, abonnements par carte enregistrée, simulation d'échéancier, remboursements et annulations via les remboursements WooCommerce, statuts validés côté serveur, journaux et formulaire d'assistance.
+### Fonctionnalités prévues
 
-Installation à la première version, via Extensions → Ajouter → Téléverser une extension. Compatibilité : à venir.
+**💳 Axepta BNP Paribas** — CB, Visa, Mastercard, Amex, Apple Pay, Google Pay, PayPal
 
-📚 Documentation : **[docs.merchant-services.bnparibas](https://docs.merchant-services.bnparibas)**
+- Page de paiement hébergée, en redirection ou en iframe, avec 3-D Secure
+- Demande d'exemption 3DS
+- Capture automatique, manuelle ou différée
+- Abonnements par carte enregistrée
+- Journaux et formulaire d'assistance intégrés
+
+**🗓️ FLOA Pay** — Pay Later, 3x, 4x, 10x (France)
+
+- Simulation d'échéancier sur la fiche produit et le panier
+- Page de paiement hébergée par FLOA, avec 3-D Secure
+- Capture de la 1re échéance automatique ou à la validation de la commande
+- Remboursements et annulations via les remboursements WooCommerce
+- Journaux et formulaire d'assistance intégrés
+
+### Installation
+
+Disponible à la première version, via Extensions → Ajouter → Téléverser une extension.
+
+**Compatibilité :** à venir.
+
+### Ressources développeurs
+
+👉 **[docs.merchant-services.bnpparibas](https://docs.merchant-services.bnpparibas)** : guides d'installation, configuration et documentation API.
+
 
 ---
 
 <div align="center">
 
-Part of **[BNP Paribas Merchant Services](https://github.com/Merchant-services-BNP-Paribas)** · [PrestaShop](https://github.com/Merchant-services-BNP-Paribas/MerchantServices-Prestashop-plugin) · [WooCommerce](https://github.com/Merchant-services-BNP-Paribas/MerchantServices-WooCommerce-plugin) · [Magento 2](https://github.com/Merchant-services-BNP-Paribas/MerchantServices-Magento2-plugin)
+Part of **[BNP Paribas Merchant Services](https://github.com/BNPParibas-MerchantServices)** · [PrestaShop](https://github.com/BNPParibas-MerchantServices/MerchantServices-Prestashop-plugin) · [WooCommerce](https://github.com/BNPParibas-MerchantServices/MerchantServices-WooCommerce-plugin) · [Magento 2](https://github.com/BNPParibas-MerchantServices/MerchantServices-Magento2-plugin)
 
 </div>
