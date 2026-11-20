@@ -1,5 +1,10 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BNPParibas-MerchantServices/.github/main/assets/ms-logo-dark.svg">
+  <img alt="BNP Paribas Merchant Services" src="https://raw.githubusercontent.com/BNPParibas-MerchantServices/.github/main/assets/ms-logo-light.svg" width="320">
+</picture>
+
 # BNP Paribas Merchant Services — All-in-One plugin for WooCommerce / WordPress
 
 **Payments, split payments and consumer financing from BNP Paribas — in one WooCommerce / WordPress plugin.**
